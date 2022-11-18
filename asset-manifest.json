@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Github-user-search/static/css/main.d5b2af53.css",
+    "main.js": "/Github-user-search/static/js/main.5b852088.js",
+    "static/js/787.28cb0dcd.chunk.js": "/Github-user-search/static/js/787.28cb0dcd.chunk.js",
+    "static/media/icon-sun.svg": "/Github-user-search/static/media/icon-sun.f28a8996f9959c40bdff14d5a43c08d8.svg",
+    "index.html": "/Github-user-search/index.html",
+    "static/media/icon-moon.svg": "/Github-user-search/static/media/icon-moon.cce754cec46d095fd3ce12737f38694b.svg",
+    "static/media/icon-search.svg": "/Github-user-search/static/media/icon-search.0cc0c98424cc75d5e1dfbb9e3abb6785.svg",
+    "main.d5b2af53.css.map": "/Github-user-search/static/css/main.d5b2af53.css.map",
+    "main.5b852088.js.map": "/Github-user-search/static/js/main.5b852088.js.map",
+    "787.28cb0dcd.chunk.js.map": "/Github-user-search/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d5b2af53.css",
+    "static/js/main.5b852088.js"
+  ]
+}
