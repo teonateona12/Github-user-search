@@ -1,24 +1,18 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect } from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import Header from "./components/Header";
+import { useState } from "react";
+import GetApi from "./components/GetApi";
+
+
 
 function App() {
+  const [theme, setTheme] = useState("light");
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="p-7 md:py-36 md:px-24 xl:px-80	">
+      <Header theme = {theme} setTheme={setTheme} />
+      <GetApi theme = {theme} setTheme={setTheme} />
     </div>
   );
 }
